@@ -9,8 +9,8 @@ ___
 
 * O modelo final selecionado foi um modelo de regressão logística por ter alcançado bons resultados nas métricas de avaliação, além de ser um algoritmo simples para ser posto em produção e de mais fácil explanabilidade, o que pode ser útil para determinar a calibração de futuras features.
 
-* O modelo atingiu a métrica de 67% na métrica de ponderação (AUC) entre leads compradores e leads não compradores que receberão mensagens.
+* O modelo atingiu 67% na métrica de ponderação (AUC) entre leads compradores e leads não compradores que receberão mensagens. O valor é 17% acima da estimativa do método  inicial.
 
 * O resultado final do modelo propõe uma redução de 29% o volume total de mensagens que são enviadas aos leads, mantendo ainda uma taxa de identificação de 87% entre leads que tornam-se compradores.
 
-* A média de preço de disparos no WhatsApp é de cerca de R\\$ 0.12 por mensagem. Considerando que ao mês, em média, são preenchidos 72.000 formulários, o aumento na assertividade dos disparos com a redução de 29% nos envios pode gerar uma economia de R\\$ 2.505,60/mês para a empresa, indo de 8640,00 a R$ 6.134,40 mensais.
+* A média de preço de disparos no WhatsApp é de cerca de R\$ 0.12 por mensagem. Considerando que ao mês, em média, são preenchidos 72.000 formulários, o aumento na assertividade dos disparos com a redução de 29% no total de envios pode gerar uma economia de R\$ 2.505,60/mês para a empresa, passando de 8.640,00 a R$ 6.134,40 mensais em custos.
